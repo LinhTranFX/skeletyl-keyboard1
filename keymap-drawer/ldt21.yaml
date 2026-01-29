@@ -34,8 +34,8 @@ layers:
   - LEFT ALT
   - LEFT WIN
   - LCTRL
-  - {t: SPACE, h: Number}
-  - ENTER
+  - {t: ENTER, h: Number}
+  - SPACE
   - ESCAPE
   LDT_:
   - Q
@@ -71,8 +71,8 @@ layers:
   - LCTRL
   - LEFT ALT
   - LEFT WIN
-  - {t: SPACE, h: Number}
-  - ENTER
+  - {t: ENTER, h: Number}
+  - SPACE
   - ESCAPE
   Number:
   - {t: LDT, h: toggle}
@@ -108,7 +108,7 @@ layers:
   - LALT
   - LWIN
   - LCTRL
-  - {type: held}
+  - {t: '&ENTER', type: held}
   - ENTER
   - ESCAPE
 combos:

@@ -108,7 +108,7 @@ layers:
   - LALT
   - LWIN
   - LCTRL
-  - {t: '&ENTER', type: held}
+  - {type: held}
   - ENTER
   - ESCAPE
 combos:

@@ -3,5 +3,5 @@
 ### ZMK Firmware
 [keymap editor](https://nickcoutsos.github.io/keymap-editor)
 
-## Keymap
+## Keymap:
 ![Keymap](./keymap-drawer/ldt21.svg)

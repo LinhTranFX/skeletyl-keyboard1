@@ -50,7 +50,7 @@ layers:
   - P
   - Ctl+A
   - Ctl+S
-  - ''
+  - LCTRL
   - Ctl+F
   - ''
   - CAPS
@@ -73,7 +73,7 @@ layers:
   - ''
   - ENTER
   - SPACE
-  - DELETE
+  - BACKSPACE
   Number:
   - {t: LDT, h: toggle}
   - {t: LDT_, h: toggle}

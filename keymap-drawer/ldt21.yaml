@@ -225,7 +225,7 @@ layers:
 combos:
 - p: [12, 13]
   k: LCTRL
-  l: [LDT]
+  l: [LDT_]
 - p: [12, 23]
   k: LEFT ALT
   l: [LDT_]

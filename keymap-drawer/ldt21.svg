@@ -283,10 +283,6 @@ path.combo {
 <a href="#fun">
 <text x="0" y="24" class="key hold layer-activator">fun</text>
 </a></g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="154" y="78" width="28" height="26" class="combo"/>
-<text x="168" y="91" class="combo tap">LCTRL</text>
-</g>
 </g>
 </g>
 <g transform="translate(30, 336)" class="layer-LDT_">
@@ -436,12 +432,16 @@ path.combo {
 <text x="0" y="0" class="key tap">DELETE</text>
 </g>
 <g class="combo combopos-0">
+<rect rx="6" ry="6" x="154" y="78" width="28" height="26" class="combo"/>
+<text x="168" y="91" class="combo tap">LCTRL</text>
+</g>
+<g class="combo combopos-1">
 <rect rx="6" ry="6" x="154" y="106" width="28" height="26" class="combo"/>
 <text x="168" y="119" class="combo tap">
 <tspan x="168" dy="-0.6em">LEFT</tspan><tspan x="168" dy="1.2em">ALT</tspan>
 </text>
 </g>
-<g class="combo combopos-1">
+<g class="combo combopos-2">
 <path d="M546,175 l-83,65" class="combo"/>
 <path d="M546,175 l83,-65" class="combo"/>
 <rect rx="6" ry="6" x="532" y="162" width="28" height="26" class="combo"/>

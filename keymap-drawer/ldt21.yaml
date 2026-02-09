@@ -78,7 +78,7 @@ layers:
   - ESC
   - ''
   - '&studio_unlock'
-  - ''
+  - Alt+R
   - BT CLR ALL
   - {t: ▽, type: trans}
   - Ctl+V
@@ -97,9 +97,9 @@ layers:
   - '&mmv MOVE_RIGHT'
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - LEFT GUI
+  - {t: ▽, type: trans}
+  - Gui+L
   - {t: ▽, type: trans}
   - '&msc SCRL_LEFT'
   - '&msc SCRL_DOWN'
@@ -202,7 +202,7 @@ layers:
   - F6
   - SCROLLLOCK
   - {t: ▽, type: trans}
-  - RSHFT
+  - Gui+TAB
   - RCTRL
   - Gui+L
   - RGUI
@@ -211,7 +211,7 @@ layers:
   - F2
   - F3
   - PAUSE BREAK
-  - {t: ▽, type: trans}
+  - Gui+Sft+S
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -228,4 +228,7 @@ combos:
   l: [LDT]
 - p: [12, 23]
   k: LEFT ALT
+  l: [LDT]
+- p: [0, 1]
+  k: ''
   l: [LDT]

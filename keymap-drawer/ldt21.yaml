@@ -88,7 +88,7 @@ layers:
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - Gui+D
-  - {t: BT, h: '3'}
+  - ''
   - BT CLR
   - ''
   - '&mmv MOVE_LEFT'
@@ -96,7 +96,7 @@ layers:
   - '&mmv MOVE_UP'
   - '&mmv MOVE_RIGHT'
   - {t: BT, h: '2'}
-  - {t: ▽, type: trans}
+  - {t: BT, h: '3'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT GUI

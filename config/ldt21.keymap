@@ -5,7 +5,6 @@
  */
 
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
@@ -71,10 +70,10 @@
 
         mouse {
             bindings = <
-&kp ESC       &none         &studio_unlock  &kp LA(R)        &bt BT_CLR_ALL  &trans     &kp LC(V)       &kp LC(C)       &kp LC(X)     &kp BACKSPACE
-&bt BT_SEL 0  &bt BT_SEL 1  &kp LG(D)       &kp LA(LC(TAB))  &none           &none      &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT
-&bt BT_SEL 2  &bt BT_SEL 3  &kp LEFT_GUI    &trans           &kp LG(L)       &trans     &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT
-                            &none           &none            &none           &mkp LCLK  &mkp RCLK       &kp ESCAPE
+&kp ESC  &none  &studio_unlock  &kp LA(R)        &none      &trans     &kp LC(V)       &kp LC(C)       &kp LC(X)     &kp BACKSPACE
+&none    &none  &kp LG(D)       &kp LA(LC(TAB))  &none      &none      &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT
+&none    &none  &kp LEFT_GUI    &trans           &kp LG(L)  &trans     &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT
+                &none           &none            &none      &mkp LCLK  &mkp RCLK       &kp ESCAPE
             >;
 
             label = "Number";

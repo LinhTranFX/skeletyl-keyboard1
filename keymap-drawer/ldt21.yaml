@@ -31,9 +31,9 @@ layers:
   - ','
   - .
   - {t: /, h: LEFT SHIFT}
-  - {t: ESC, h: LEFT ALT}
-  - {t: BACKSPACE, h: LDT_}
   - {t: TAB, h: Number}
+  - {t: BACKSPACE, h: LDT_}
+  - ENTER
   - {t: ENTER, h: sym}
   - {t: SPACE, h: num}
   - {t: DELETE, h: fun}
@@ -75,11 +75,11 @@ layers:
   - SPACE
   - BACKSPACE
   Number:
-  - Alt+Ctl+TAB
+  - ESC
   - ''
   - '&studio_unlock'
   - ''
-  - ''
+  - BT CLR ALL
   - {t: ▽, type: trans}
   - Ctl+V
   - Ctl+C
@@ -88,8 +88,8 @@ layers:
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - Gui+D
+  - Alt+Ctl+TAB
   - ''
-  - BT CLR
   - ''
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
@@ -105,9 +105,9 @@ layers:
   - '&msc SCRL_DOWN'
   - '&msc SCRL_UP'
   - '&msc SCRL_RIGHT'
-  - ''
-  - ''
   - {type: held}
+  - ''
+  - ''
   - '&mkp LCLK'
   - '&mkp RCLK'
   - ESCAPE

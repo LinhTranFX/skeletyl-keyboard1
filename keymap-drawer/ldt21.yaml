@@ -79,14 +79,14 @@ layers:
   - ''
   - '&studio_unlock'
   - Alt+R
-  - BT CLR ALL
+  - ''
   - {t: ▽, type: trans}
   - Ctl+V
   - Ctl+C
   - Ctl+X
   - BACKSPACE
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
+  - ''
+  - ''
   - Gui+D
   - Alt+Ctl+TAB
   - ''
@@ -95,8 +95,8 @@ layers:
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_UP'
   - '&mmv MOVE_RIGHT'
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
+  - ''
+  - ''
   - LEFT GUI
   - {t: ▽, type: trans}
   - Gui+L

@@ -98,7 +98,7 @@ layers:
   - ''
   - ''
   - LEFT GUI
-  - {t: ▽, type: trans}
+  - ''
   - Gui+L
   - {t: ▽, type: trans}
   - '&msc SCRL_LEFT'
@@ -230,5 +230,5 @@ combos:
   k: LEFT ALT
   l: [LDT]
 - p: [0, 1]
-  k: ''
+  k: ESC
   l: [LDT]

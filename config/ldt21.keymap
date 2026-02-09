@@ -38,7 +38,7 @@
         };
 
         esc {
-            bindings = <&none>;
+            bindings = <&kp ESC>;
             key-positions = <0 1>;
             layers = <0>;
         };
@@ -72,7 +72,7 @@
             bindings = <
 &kp ESC  &none  &studio_unlock  &kp LA(R)        &none      &trans     &kp LC(V)       &kp LC(C)       &kp LC(X)     &kp BACKSPACE
 &none    &none  &kp LG(D)       &kp LA(LC(TAB))  &none      &none      &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT
-&none    &none  &kp LEFT_GUI    &trans           &kp LG(L)  &trans     &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT
+&none    &none  &kp LEFT_GUI    &none            &kp LG(L)  &trans     &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT
                 &none           &none            &none      &mkp LCLK  &mkp RCLK       &kp ESCAPE
             >;
 

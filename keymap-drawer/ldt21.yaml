@@ -75,11 +75,11 @@ layers:
   - SPACE
   - BACKSPACE
   Number:
-  - Alt+TAB
-  - {t: LDT_, h: toggle}
+  - Alt+Ctl+TAB
+  - ''
   - '&studio_unlock'
-  - F2
-  - F12
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - Ctl+V
   - Ctl+C
@@ -87,7 +87,7 @@ layers:
   - BACKSPACE
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
+  - Gui+D
   - {t: BT, h: '3'}
   - BT CLR
   - ''
@@ -95,11 +95,11 @@ layers:
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_UP'
   - '&mmv MOVE_RIGHT'
+  - {t: BT, h: '2'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT GUI
   - {t: ▽, type: trans}
   - '&msc SCRL_LEFT'
   - '&msc SCRL_DOWN'
@@ -204,7 +204,7 @@ layers:
   - {t: ▽, type: trans}
   - RSHFT
   - RCTRL
-  - RALT
+  - Gui+L
   - RGUI
   - F10
   - F1

@@ -52,7 +52,7 @@ layers:
   - Ctl+S
   - LCTRL
   - Ctl+F
-  - ''
+  - Ctl+G
   - CAPS
   - LEFT ARROW
   - DOWN
@@ -62,7 +62,7 @@ layers:
   - Ctl+X
   - Ctl+C
   - Ctl+V
-  - ''
+  - Ctl+B
   - ''
   - HOME
   - PG DN

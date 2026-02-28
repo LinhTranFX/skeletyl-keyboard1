@@ -62,8 +62,8 @@
             label = "LDT_";
             bindings = <
 &kp LC(Q)  &kp LC(W)  &none      &kp LC(R)  &kp LC(T)  &kp LC(Z)  &kp LC(V)       &kp LC(C)      &kp LC(X)     &kp P
-&kp LC(A)  &kp LC(S)  &kp LCTRL  &kp LC(F)  &none      &kp CAPS   &kp LEFT_ARROW  &kp DOWN       &kp UP_ARROW  &kp RIGHT
-&kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &none      &none      &kp HOME        &kp PG_DN      &kp PAGE_UP   &kp END
+&kp LC(A)  &kp LC(S)  &kp LCTRL  &kp LC(F)  &kp LC(G)  &kp CAPS   &kp LEFT_ARROW  &kp DOWN       &kp UP_ARROW  &kp RIGHT
+&kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)  &none      &kp HOME        &kp PG_DN      &kp PAGE_UP   &kp END
                       &none      &none      &none      &kp ENTER  &kp SPACE       &kp BACKSPACE
             >;
         };

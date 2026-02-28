@@ -86,7 +86,7 @@ layers:
   - Ctl+X
   - BACKSPACE
   - ''
-  - ''
+  - Sft+Gui+S
   - Gui+D
   - Alt+Ctl+TAB
   - ''
@@ -195,7 +195,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+P
   - F11
   - F4
   - F5
@@ -205,7 +205,7 @@ layers:
   - Gui+TAB
   - RCTRL
   - Gui+L
-  - RGUI
+  - ''
   - F10
   - F1
   - F2

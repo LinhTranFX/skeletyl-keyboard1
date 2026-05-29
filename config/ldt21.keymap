@@ -70,10 +70,10 @@
 
         mouse {
             bindings = <
-&kp ESC  &none          &studio_unlock  &kp LA(R)        &none      &trans     &none           &none           &none         &kp BACKSPACE
-&none    &kp RS(RG(S))  &kp LG(D)       &kp LA(LC(TAB))  &none      &none      &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT
-&none    &kp LEFT_GUI   &none           &none            &kp LG(L)  &trans     &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT
-                        &none           &none            &none      &mkp LCLK  &mkp RCLK       &kp ESCAPE
+&kp ESC  &none          &none      &kp LA(R)        &none      &trans     &none           &none           &none         &kp BACKSPACE
+&none    &kp RS(RG(S))  &kp LG(D)  &kp LA(LC(TAB))  &none      &none      &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT
+&none    &kp LEFT_GUI   &none      &none            &kp LG(L)  &trans     &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT
+                        &none      &none            &none      &mkp LCLK  &mkp RCLK       &kp ESCAPE
             >;
 
             label = "Number";

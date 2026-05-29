@@ -52,7 +52,7 @@
 &kp Q             &kp W  &kp E      &kp R            &kp T      &kp Y        &kp U        &kp I         &kp O    &kp P
 &kp A             &kp S  &kp D      &kp F            &kp G      &kp H        &kp J        &kp K         &kp L    &mt RCTRL SEMICOLON
 &mt LEFT_SHIFT Z  &kp X  &kp C      &kp V            &kp B      &kp N        &kp M        &kp COMMA     &kp DOT  &mt LEFT_SHIFT SLASH
-                         &lt 2 TAB  &lt 1 BACKSPACE  &kp ENTER  &lt 4 ENTER  &lt 3 SPACE  &lt 5 DELETE
+                         &lt 1 TAB  &lt 2 BACKSPACE  &kp ENTER  &lt 4 ENTER  &lt 3 SPACE  &lt 5 DELETE
             >;
 
             label = "LDT";
@@ -61,7 +61,7 @@
         nav {
             label = "LDT_";
             bindings = <
-&kp LC(Q)  &kp LC(W)  &none      &kp LC(R)  &kp LC(T)  &kp LC(Z)  &kp LC(V)       &kp LC(C)      &kp LC(X)     &kp P
+&kp LC(Q)  &kp LC(W)  &kp LC(E)  &kp LC(R)  &kp LC(T)  &none      &none           &none          &none         &none
 &kp LC(A)  &kp LC(S)  &kp LCTRL  &kp LC(F)  &kp LC(G)  &kp CAPS   &kp LEFT_ARROW  &kp DOWN       &kp UP_ARROW  &kp RIGHT
 &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)  &none      &kp HOME        &kp PG_DN      &kp PAGE_UP   &kp END
                       &none      &none      &none      &kp ENTER  &kp SPACE       &kp BACKSPACE
@@ -70,9 +70,9 @@
 
         mouse {
             bindings = <
-&kp ESC  &none          &studio_unlock  &kp LA(R)        &none      &trans     &kp LC(V)       &kp LC(C)       &kp LC(X)     &kp BACKSPACE
-&none    &kp LS(LG(S))  &kp LG(D)       &kp LA(LC(TAB))  &none      &none      &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT
-&none    &none          &kp LEFT_GUI    &none            &kp LG(L)  &trans     &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT
+&kp ESC  &none          &studio_unlock  &kp LA(R)        &none      &trans     &none           &none           &none         &kp BACKSPACE
+&none    &kp RS(RG(S))  &kp LG(D)       &kp LA(LC(TAB))  &none      &none      &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT
+&none    &kp LEFT_GUI   &none           &none            &kp LG(L)  &trans     &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT
                         &none           &none            &none      &mkp LCLK  &mkp RCLK       &kp ESCAPE
             >;
 

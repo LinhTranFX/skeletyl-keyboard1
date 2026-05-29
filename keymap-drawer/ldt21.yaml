@@ -77,7 +77,7 @@ layers:
   Number:
   - ESC
   - ''
-  - '&studio_unlock'
+  - ''
   - Alt+R
   - ''
   - {t: ▽, type: trans}

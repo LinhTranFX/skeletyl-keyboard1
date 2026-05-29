@@ -31,8 +31,8 @@ layers:
   - ','
   - .
   - {t: /, h: LEFT SHIFT}
-  - {t: TAB, h: Number}
-  - {t: BACKSPACE, h: LDT_}
+  - {t: TAB, h: LDT_}
+  - {t: BACKSPACE, h: Number}
   - ENTER
   - {t: ENTER, h: sym}
   - {t: SPACE, h: num}
@@ -40,14 +40,14 @@ layers:
   LDT_:
   - Ctl+Q
   - Ctl+W
-  - ''
+  - Ctl+E
   - Ctl+R
   - Ctl+T
-  - Ctl+Z
-  - Ctl+V
-  - Ctl+C
-  - Ctl+X
-  - P
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - Ctl+A
   - Ctl+S
   - LCTRL
@@ -68,8 +68,8 @@ layers:
   - PG DN
   - PAGE UP
   - END
-  - ''
   - {type: held}
+  - ''
   - ''
   - ENTER
   - SPACE
@@ -81,9 +81,9 @@ layers:
   - Alt+R
   - ''
   - {t: ▽, type: trans}
-  - Ctl+V
-  - Ctl+C
-  - Ctl+X
+  - ''
+  - ''
+  - ''
   - BACKSPACE
   - ''
   - Sft+Gui+S
@@ -96,8 +96,8 @@ layers:
   - '&mmv MOVE_UP'
   - '&mmv MOVE_RIGHT'
   - ''
-  - ''
   - LEFT GUI
+  - ''
   - ''
   - Gui+L
   - {t: ▽, type: trans}
@@ -105,8 +105,8 @@ layers:
   - '&msc SCRL_DOWN'
   - '&msc SCRL_UP'
   - '&msc SCRL_RIGHT'
-  - {type: held}
   - ''
+  - {type: held}
   - ''
   - '&mkp LCLK'
   - '&mkp RCLK'
